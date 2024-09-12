@@ -1,0 +1,20 @@
+# Relatório de Análise da Flutuação do Preço de Fechamento do Bitcoin 
+## Introdução Este relatório apresenta uma análise detalhada da flutuação do preço de fechamento do Bitcoin com base em dados históricos fornecidos pela CryptoFinance Solutions. 
+   O objetivo principal é identificar tendências, padrões e insights relevantes que possam influenciar estratégias de investimento e tomadas de decisão da empresa. 
+
+## Metodologia 
+1. **Leitura dos Dados**: Importação dos dados a partir do arquivo CSV. 
+2. **Tratamento de Dados**: Conversão da coluna de datas para o formato datetime e tratamento de valores ausentes e inconsistências.
+   1. **Histograma**: Distribuição dos preços de fechamento. 
+   2. **Gráfico de Linha**: Variação do preço de fechamento e volume de negociação ao longo do tempo. 
+   3. **Gráfico de Dispersão**: Relação entre preço de fechamento e volume de negociação. 
+   4. **Matriz de Correlação**: Identificação das correlações entre variáveis numéricas. 
+
+- **Estrutura dos Dados**: O DataFrame contém colunas para data, preço de fechamento e volume de negociação. 
+- **Valores Ausentes**: Foram encontrados e tratados valores ausentes na coluna de volume de negociação. 
+- **Tipo de Dados**: A coluna de data foi convertida para o tipo datetime, facilitando a análise temporal. 
+ 
+### Recomendações 
+1. **Monitoramento Contínuo**: Recomenda-se um monitoramento contínuo das tendências de preço e volume para identificar possíveis oportunidades de investimento. 
+2. **Análise Adicional**: É importante incluir outras variáveis, como notícias do mercado e indicadores econômicos, para uma análise mais completa. 
+3. **Estratégias de Investimento**: Desenvolver estratégias que considerem a volatilidade do Bitcoin e o comportamento não-linear do volume de negociação. 
