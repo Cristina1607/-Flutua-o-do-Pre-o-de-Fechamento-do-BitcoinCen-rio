@@ -1,0 +1,8 @@
+ # Arquivos e diretórios ignorados no repositório 
+ # Python *.pyc *.pyo *.pyd __pycache__/ *.db 
+ # Jupyter Notebook .ipynb_checkpoints/ 
+ # Dados data/*.csv 
+ # Ambiente Virtual venv/ .env 
+ # Dependências requirements.txt 
+ # Sistema Operacional .DS_Store Thumbs.db 
+ # Relatórios e arquivos temporários reports/*.pdf *.log *.tmp 
